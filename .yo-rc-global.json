@@ -1,0 +1,55 @@
+{
+  "generator-express:2.9.2": {
+    "promptValues": {
+      "type": "Basic",
+      "viewEngine": "Handlebars",
+      "cssPreprocessor": "None",
+      "database": "MongoDB",
+      "buildTool": "Grunt"
+    }
+  },
+  "generator-express:2.9.3": {
+    "promptValues": {
+      "type": "MVC",
+      "viewEngine": "Handlebars",
+      "cssPreprocessor": "None",
+      "database": "MongoDB",
+      "buildTool": "Grunt"
+    }
+  },
+  "generator-express:2.9.5": {
+    "promptValues": {
+      "type": "MVC",
+      "viewEngine": "Handlebars",
+      "cssPreprocessor": "Stylus",
+      "buildTool": "Gulp",
+      "database": "MongoDB"
+    }
+  },
+  "generator-express:2.10.0": {
+    "promptValues": {
+      "type": "MVC",
+      "viewEngine": "Handlebars",
+      "cssPreprocessor": "None",
+      "buildTool": "Gulp",
+      "database": "MongoDB"
+    }
+  },
+  "generator-express:2.15.0": {
+    "promptValues": {
+      "type": "MVC",
+      "viewEngine": "EJS",
+      "cssPreprocessor": "None",
+      "buildTool": "Gulp",
+      "database": "MongoDB"
+    }
+  },
+  "generator-express:2.16.1": {
+    "promptValues": {
+      "type": "Basic",
+      "viewEngine": "EJS",
+      "cssPreprocessor": "None",
+      "buildTool": "Grunt"
+    }
+  }
+}
