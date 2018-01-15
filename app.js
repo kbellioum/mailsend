@@ -11,7 +11,7 @@ const users = require('./routes/user');
 
 const app = express();
 
-app.use(cors())
+app.use(cors());
 
 const env = process.env.NODE_ENV || 'development';
 app.locals.ENV = env;
