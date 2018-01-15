@@ -22,7 +22,7 @@ router.get('/', (req, res) => {
 });
 
 
-router.post('/test', (req, res) => {
+router.post('/send', (req, res) => {
   let a = {};
   a.title = 'Title';
   a.message = 'Message';

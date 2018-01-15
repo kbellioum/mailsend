@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
@@ -9,6 +10,8 @@ const routes = require('./routes/index');
 const users = require('./routes/user');
 
 const app = express();
+
+app.use(cors())
 
 const env = process.env.NODE_ENV || 'development';
 app.locals.ENV = env;

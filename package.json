@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
     "test": "mocha --recursive test",
     "test:coverage": "nyc npm test",
     "test:unit": "mocha --recursive test/middleware test/models test/routes",
@@ -13,6 +14,7 @@
   "dependencies": {
     "body-parser": "^1.13.3",
     "cookie-parser": "^1.3.3",
+    "cors": "^2.8.4",
     "ejs": "^2.3.1",
     "express": "^4.13.3",
     "mailgun-js": "^0.14.1",
