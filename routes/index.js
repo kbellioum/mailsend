@@ -23,6 +23,8 @@ router.get('/', (req, res) => {
 
 
 router.post('/send', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*');
+
   let a = {};
   a.title = 'Title';
   a.message = 'Message';
